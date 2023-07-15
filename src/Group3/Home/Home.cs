@@ -16,7 +16,7 @@ using Group3.Home.Product;
 using DeviceId;
 using DeviceId.Encoders;
 using DeviceId.Formatters;
-using Group3.Log.Account;
+using Group3.FrSigin.Account;
 using System.Web.UI.WebControls;
 using Group3.DataAcces;
 
@@ -103,7 +103,7 @@ namespace Group3.Home
         private void Account_Click(object sender, EventArgs e)
         {
             Home home = new Home();
-            using( Log.Log lg = new Log.Log())
+            using(FrSigin.FrSigin lg = new FrSigin.FrSigin())
             {
                 home = this;
                 this.Hide();

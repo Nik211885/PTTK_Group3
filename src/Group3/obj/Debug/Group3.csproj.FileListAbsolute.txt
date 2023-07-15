@@ -36,7 +36,6 @@ C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\MetroFramework.
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\DeviceId.xml
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.ShoopingCart.FormCart.resources
-C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Log.Log.resources
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\My Cafe.exe.config
@@ -69,3 +68,4 @@ C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\System.Runtime.
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\System.ValueTuple.xml
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\My Cafe.exe.config
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.FrSigin.FrSigin.resources

@@ -24,13 +24,13 @@ namespace Group3.DataAcces
                 }
             });
         }
-        public async Task<List<Log.Account.User>> getInforUsre(string email)
+        public async Task<List<FrSigin.Account.User>> getInforUsre(string email)
         {
             return await Task.Run(() =>
             {
                 using (IDbConnection con = new System.Data.SqlClient.SqlConnection(Helper.ConnectValue("DbCafe")))
                 {
-                    var data = con.Query<Log.Account.User>("dbo.SlectUser @Email", new { Email = email }).ToList();
+                    var data = con.Query<FrSigin.Account.User>("dbo.SlectUser @Email", new { Email = email }).ToList();
                     return data;
                 }
             });
