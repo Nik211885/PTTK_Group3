@@ -22,26 +22,35 @@ namespace Group3.Home.Product
 
         private void Details_Load(object sender, EventArgs e)
         {
-            InforProduct.Text = MethodProduct.ProductClick.pd.Infor;
-            imgProduct.Image = Image.FromFile(MethodProduct.ProductClick.pd.Img);
-            NameFood.Text=MethodProduct.ProductClick.pd.Name;
-            Id.Text=MethodProduct.ProductClick.pd.Id;
-            PricePRomotion.Text = Method.ConverMoney.convertMoney((ulong)(MethodProduct.ProductClick.pd.Price - MethodProduct.ProductClick.pd.Price * MethodProduct.ProductClick.pd.Promotion * 0.01)); 
-            if (MethodProduct.ProductClick.pd.Promotion == 0)
+            InforProduct.Text = Method.MulitiLabel.Multi(Stored.pd.Infor,88);
+            imgProduct.Image = Image.FromFile(Stored.pd.Img);
+            NameFood.Text= Method.MulitiLabel.Multi(Stored.pd.Name,40);
+            Id.Text= Stored.pd.Id;
+            PricePromotion.Text = Method.ConverMoney.convertMoney((ulong)(Stored.pd.Price - Stored.pd.Price * Stored.pd.Promotion * 0.01)); 
+            if (Stored.pd.Promotion == 0)
             {
                 label5.Visible= false;
                 Price.Visible = false;
                 label7.Visible = false;
                 Promotion.Visible = false;
                 panel2.Visible = false;
-                PricePRomotion.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-                PricePRomotion.Location = new Point(297, 145);
+                PricePromotion.Font = new System.Drawing.Font("Calibri", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                PricePromotion.Location = new Point(297, 145);
             }
             else
             {
-                Price.Text = Method.ConverMoney.convertMoney(MethodProduct.ProductClick.pd.Price);
-                Promotion.Text = Method.ConverMoney.convertMoney((ulong)(MethodProduct.ProductClick.pd.Price * MethodProduct.ProductClick.pd.Promotion * 0.01));
+                Price.Text = Method.ConverMoney.convertMoney(Stored.pd.Price);
+                Promotion.Text = Method.ConverMoney.convertMoney((ulong)(Stored.pd.Price * Stored.pd.Promotion * 0.01));
             }
+            panel5.Location = new Point(7,NameFood.Size.Height+40);
+            InforProduct.Location = new Point(17, NameFood.Size.Height + 275);
+            panel2.Size = new System.Drawing.Size(Price.Size.Width, 1);
+            panel1.Location = new Point(100 + Price.Size.Width, 70);
+        }
+
+        private void addToCart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

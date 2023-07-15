@@ -69,10 +69,13 @@
             this.Buy.FillColor = System.Drawing.Color.White;
             this.Buy.Font = new System.Drawing.Font("Calibri", 9F);
             this.Buy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(49)))), ((int)(((byte)(58)))));
-            this.Buy.Image = ((System.Drawing.Image)(resources.GetObject("Buy.Image")));
+            this.Buy.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(49)))), ((int)(((byte)(58)))));
+            this.Buy.HoverState.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Buy.HoverState.ForeColor = System.Drawing.Color.White;
             this.Buy.ImageSize = new System.Drawing.Size(30, 30);
             this.Buy.Location = new System.Drawing.Point(3, 317);
             this.Buy.Name = "Buy";
+            this.Buy.PressedColor = System.Drawing.Color.OldLace;
             this.Buy.Size = new System.Drawing.Size(245, 36);
             this.Buy.TabIndex = 4;
             this.Buy.Text = "Chọn mua";

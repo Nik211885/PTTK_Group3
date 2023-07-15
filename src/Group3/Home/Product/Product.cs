@@ -88,7 +88,7 @@ namespace Group3.Home.Product
                 sb.Append("\n");
                 if (b > 47)
                 {
-                    sb.Append(text.Substring(temp+1, 25));
+                    sb.Append(text.Substring(temp+1, 23));
                     sb.Append("...");
                 }
                 else
@@ -113,7 +113,7 @@ namespace Group3.Home.Product
         {
             using (Group3.Home.Product.Details dl = new Group3.Home.Product.Details())
             {
-                Group3.Home.Product.MethodProduct.ProductClick.pd = this;   
+                Stored.pd = this;   
                 dl.ShowDialog();
                 
             }
