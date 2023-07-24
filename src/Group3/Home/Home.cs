@@ -99,20 +99,12 @@ namespace Group3.Home
             }
 
         }
-
-        private void Account_Click(object sender, EventArgs e)
+        private void UpdateProfile()
         {
-            Home home = new Home();
-            using(FrSigin.FrSigin lg = new FrSigin.FrSigin())
+            try
             {
-                home = this;
-                this.Hide();
-                lg.ShowDialog();
-            }
-            //aaajsa
-            if (Stored.ur != null)
-            {
-                if (Stored.ur.Img==null||Stored.ur.Img.Trim().Length==0)
+                //aaajsa
+                if (Stored.ur.Img == null || Stored.ur.Img.Trim().Length == 0)
                 {
                 }
                 else
@@ -120,6 +112,30 @@ namespace Group3.Home
                     Account.Image = System.Drawing.Image.FromFile(Stored.ur.Img);
                 }
             }
+            catch { }
+        }
+
+        private void Account_Click(object sender, EventArgs e)
+        {
+            
+            Home home = new Home();
+            home = this;
+            this.Hide();
+            if (Stored.ur.Email != null)
+            {
+                using (Profile.Profile pr = new Profile.Profile())
+                {
+                    pr.ShowDialog();
+                }
+            }
+            else
+            {
+                using (FrSigin.FrSigin lg = new FrSigin.FrSigin())
+                {
+                    lg.ShowDialog();
+                }
+            }
+            UpdateProfile();
             home.Show();
         }
     }

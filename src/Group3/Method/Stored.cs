@@ -12,5 +12,6 @@ namespace Group3.Method
     {
         public static Product pd = new Product();
         public static User ur = new User();
+        
     }
 }

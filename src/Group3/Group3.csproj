@@ -160,6 +160,7 @@
     <Compile Include="Method\MailServer.cs" />
     <Compile Include="Method\MulitiLabel.cs" />
     <Compile Include="Method\RemoveUnicode.cs" />
+    <Compile Include="Method\SenCode.cs" />
     <Compile Include="Method\Stored.cs" />
     <Compile Include="Method\ValidateValue.cs" />
     <Compile Include="NewFolder1\Form1.cs">
@@ -167,6 +168,84 @@
     </Compile>
     <Compile Include="NewFolder1\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\Aboutme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\Aboutme.Designer.cs">
+      <DependentUpon>Aboutme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\ChangePassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\PersonalInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\PersonalInformation.Designer.cs">
+      <DependentUpon>PersonalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\YourOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profile\ControlProFile\YourOrder.Designer.cs">
+      <DependentUpon>YourOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditAddress2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditAddress2.Designer.cs">
+      <DependentUpon>EditAddress2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditAvtatr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditAvtatr.Designer.cs">
+      <DependentUpon>EditAvtatr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditBirthDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditBirthDay.Designer.cs">
+      <DependentUpon>EditBirthDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditMale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditMale.Designer.cs">
+      <DependentUpon>EditMale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditName.Designer.cs">
+      <DependentUpon>EditName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditPhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\EditPhone.Designer.cs">
+      <DependentUpon>EditPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\FrEditData\SendCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\FrEditData\SendCode.Designer.cs">
+      <DependentUpon>SendCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\UControlEdit\Infor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profile\UControlEdit\Infor.Designer.cs">
+      <DependentUpon>Infor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -196,6 +275,45 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ControlProFile\Aboutme.resx">
+      <DependentUpon>Aboutme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ControlProFile\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ControlProFile\PersonalInformation.resx">
+      <DependentUpon>PersonalInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\ControlProFile\YourOrder.resx">
+      <DependentUpon>YourOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\EditAddress2.resx">
+      <DependentUpon>EditAddress2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\EditAvtatr.resx">
+      <DependentUpon>EditAvtatr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\EditBirthDay.resx">
+      <DependentUpon>EditBirthDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\EditMale.resx">
+      <DependentUpon>EditMale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\EditName.resx">
+      <DependentUpon>EditName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\EditPhone.resx">
+      <DependentUpon>EditPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\FrEditData\SendCode.resx">
+      <DependentUpon>SendCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\UControlEdit\Infor.resx">
+      <DependentUpon>Infor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -242,9 +360,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.VisualStudio.Setup.Configuration.Interop.3.6.2115\build\Microsoft.VisualStudio.Setup.Configuration.Interop.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.Setup.Configuration.Interop.3.6.2115\build\Microsoft.VisualStudio.Setup.Configuration.Interop.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

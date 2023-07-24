@@ -4,9 +4,12 @@
     "\\Group3",
     "\\Group3\\Home",
     "\\Group3\\Home\\Product",
-    "\\Group3\\Home\\Product\\MethodProduct",
+    "\\Group3\\Profile",
+    "\\Group3\\Profile\\ControlProFile",
+    "\\Group3\\Profile\\FrEditData",
+    "\\Group3\\Profile\\UControlEdit",
     "\\packages"
   ],
-  "SelectedNode": "\\Group3\\Home\\Product\\MethodProduct\\DataAcces.cs",
+  "SelectedNode": "\\Group3\\Profile\\UControlEdit\\Infor.cs",
   "PreviewInSolutionExplorer": false
 }

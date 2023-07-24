@@ -49,5 +49,33 @@ namespace Group3.DataAcces
                 await con.ExecuteAsync("dbo.createAccout @name, @password, @email",new { name = name,email = email, password = password });
             };
         }
+        public async Task UpdateAvatar(string email,string img)
+        {
+            using (IDbConnection con = new System.Data.SqlClient.SqlConnection(Helper.ConnectValue("DbCafe")))
+            {
+                await con.ExecuteAsync("dbo.updateImgAvatar @img,@email", new { img = img, email = email });
+            }
+        }
+        public async Task UpdateMale(string email, string male)
+        {
+            using (IDbConnection con = new System.Data.SqlClient.SqlConnection(Helper.ConnectValue("DbCafe")))
+            {
+                await con.ExecuteAsync("dbo.updateMale @male,@email", new { male = male, email = email });
+            }
+        }
+        public async Task UpdateName(string email, string name)
+        {
+            using (IDbConnection con = new System.Data.SqlClient.SqlConnection(Helper.ConnectValue("DbCafe")))
+            {
+                await con.ExecuteAsync("dbo.updateName @name,@email", new { name = name, email = email });
+            }
+        }
+        public async Task UpdateBirthDay(string email, string birthDay)
+        {
+            using (IDbConnection con = new System.Data.SqlClient.SqlConnection(Helper.ConnectValue("DbCafe")))
+            {
+                await con.ExecuteAsync("dbo.updateBirthDay @birthDay,@email", new {birthDay=birthDay,email=email});
+            }
+        }
     }
 }

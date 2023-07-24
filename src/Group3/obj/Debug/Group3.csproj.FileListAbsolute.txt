@@ -69,3 +69,16 @@ C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\System.Threadin
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\bin\Debug\System.ValueTuple.xml
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\My Cafe.exe.config
 C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.FrSigin.FrSigin.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.Profile.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.ControlProFile.Aboutme.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.ControlProFile.ChangePassword.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.ControlProFile.PersonalInformation.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.ControlProFile.YourOrder.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.UControlEdit.Infor.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.EditAvtatr.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.EditName.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.EditBirthDay.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.EditMale.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.EditPhone.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.EditAddress2.resources
+C:\Users\Le Khac Ninh 2\Desktop\pttk_group3\src\Group3\obj\Debug\Group3.Profile.FrEditData.SendCode.resources
